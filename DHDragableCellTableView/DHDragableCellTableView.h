@@ -11,7 +11,7 @@
 
 @protocol DHDragableCellTableViewDataSource <UITableViewDataSource>
 
-@required
+@optional
 
 /**
  获取tableView的数据源数组
