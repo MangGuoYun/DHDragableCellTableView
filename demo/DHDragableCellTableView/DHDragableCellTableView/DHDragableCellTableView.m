@@ -66,6 +66,11 @@ static NSTimeInterval kDH_DragableCellAnimationTime = 0.25;
     _gesture.minimumPressDuration = MAX(0.2, gestureMinimumPressDuration);
 }
 
+- (void)setMoveInteractionEnabled:(BOOL)moveInteractionEnabled
+{
+    self.gesture.enabled = moveInteractionEnabled;
+}
+
 #pragma mark Gesture
 
 /**

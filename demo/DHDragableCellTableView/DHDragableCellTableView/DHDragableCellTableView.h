@@ -61,5 +61,7 @@
  边缘滚动触发范围，默认150，越靠近边缘速度越快
  */
 @property (nonatomic, assign) CGFloat                               edgeScrollRange;
+/* 是否启用移动手势 */
+@property(nonatomic, assign)BOOL moveInteractionEnabled;
 
 @end
