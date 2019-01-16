@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "DajuanM" => "tanzhenios@foxmail.com" }
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/DajuanM/DHDragableCellTableView.git", :tag => "1.0.3" }
-  s.source_files = "DHDragableCellTableView/DHDragableCellTableView/*.{h,m}"
+  s.source       = { :git => "https://github.com/MangGuoYun/DHDragableCellTableView.git", :tag => "1.0.3" }
+  s.source_files = "DHDragableCellTableView/*.{h,m}"
 end
